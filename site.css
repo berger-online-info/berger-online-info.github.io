@@ -2,9 +2,14 @@ body {
 	background-image: "/morningfog-small.jpg";
 }
 
+@font-face {
+	font-family: "Daniel";
+	src: "/Daniel-Regular.otf"
+}
 #title-span {
 	font-family: "Daniel" !important;
 	font-size: 60px;
+	color: antiquewhite;
 }
 
 .menu-item-wrap {
