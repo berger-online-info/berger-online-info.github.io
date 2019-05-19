@@ -1,0 +1,12 @@
+body {
+	background-image: "/morningfog-small.jpg";
+}
+
+#title-span {
+	font-family: "Daniel" !important;
+	font-size: 60px;
+}
+
+.menu-item-wrap {
+	list-style-type: none;
+}
