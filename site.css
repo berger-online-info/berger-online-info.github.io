@@ -1,5 +1,5 @@
 body {
-	background-image: "/morningfog-small.jpg";
+	background-image: url("/morningfog-small.jpg");
 }
 
 @font-face {
@@ -8,10 +8,24 @@ body {
 }
 #title-span {
 	font-family: "Daniel" !important;
-	font-size: 60px;
+	font-size: 3em;
 	color: antiquewhite;
+	margin-left: 1rem;
+	margin-top: 1em;
 }
 
-.menu-item-wrap {
-	list-style-type: none;
+a, article {
+	font-size: 1em;
+	color: antiquewhite;
+	text-decoration: none;
+}
+
+article {
+	max-width: 33em;
+}
+
+.menuitem, article {
+	margin-top: 1rem;
+	margin-left: 1rem;
+	font-family: sans-serif;
 }
