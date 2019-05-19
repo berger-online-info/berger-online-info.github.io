@@ -1,5 +1,8 @@
 body {
 	background-image: url("/morningfog-small.jpg");
+	background-repeat: none;
+	background-size: cover;
+	background-attachment:fixed;
 }
 
 @font-face {
